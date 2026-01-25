@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "raban-mod",
+	"id": "raban_mod",
 	"version": "${version}",
 	"name": "Raban MOD",
 	"description": "This is an example description! Tell everyone what your mod is about!",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/raban-mod/icon.png",
+	"icon": "assets/raban_mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,9 +23,9 @@
 		]
 	},
 	"mixins": [
-		"raban-mod.mixins.json",
+		"raban_mod.mixins.json",
 		{
-			"config": "raban-mod.client.mixins.json",
+			"config": "raban_mod.client.mixins.json",
 			"environment": "client"
 		}
 	],
