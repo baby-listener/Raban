@@ -22,13 +22,6 @@
 			"baby_listener.raban_mod.RabanMODClient"
 		]
 	},
-	"mixins": [
-		"raban_mod.mixins.json",
-		{
-			"config": "raban_mod.client.mixins.json",
-			"environment": "client"
-		}
-	],
 	"depends": {
 		"fabricloader": ">=0.18.4",
 		"minecraft": "~1.21.11",
